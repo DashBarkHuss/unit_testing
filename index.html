@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content = "width=device-width">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.3.0/jasmine.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.3.0/jasmine.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.3.0/jasmine-html.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.3.0/boot.min.js"></script>
+<script type="text/javascript">
+function add(a, b){
+    return a + b
+}
+
+describe('add', function(){
+    it('adds two numbers', function(){
+        expect(add(4,4)).toEqual(8);
+    }); 
+    it('adds two numbers', function(){
+        expect(add(-8,4)).toEqual(-4);
+    }); 
+});
+</script>
+</head>
+<body>
+    
+
+</body>
+</html>
